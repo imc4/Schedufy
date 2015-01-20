@@ -29,7 +29,7 @@ public class MainActivity extends TabActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-
+// test
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -45,5 +45,3 @@ public class MainActivity extends TabActivity {
         return super.onOptionsItemSelected(item);
     }
 }
-
-//testcomment
